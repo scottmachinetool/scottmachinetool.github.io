@@ -118,3 +118,41 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  #industries-served {
+    display:inline-block; 
+    width: 100%;  
+  }
+
+  #industries-served img {
+    padding:0px;
+    width: 100%;
+  }
+
+  #about {
+    display: grid;
+    grid-template-rows: 500px 300px;
+    grid-template-columns: auto;
+    grid-column-gap: 20px;
+    justify-content:center; 
+    grid-template-areas: 
+      "about-image"
+      "about-text";
+  }
+
+  #about-text {
+    grid-area: about-text;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #about-image {
+    grid-area: about-image;
+  }
+
+  #about img {
+    width: 100%;
+  }
+
+}
