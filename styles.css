@@ -132,7 +132,7 @@ footer {
 
   #about {
     display: grid;
-    grid-template-rows: 500px 300px;
+    grid-template-rows: 500px 500px;
     grid-template-columns: auto;
     grid-column-gap: 20px;
     justify-content:center; 
