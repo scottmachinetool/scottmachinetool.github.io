@@ -145,6 +145,7 @@ footer {
     grid-area: about-text;
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 500px;
   }
 
   #about-image {
