@@ -119,7 +119,7 @@ footer {
   padding-bottom: 10px;
 }
 
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-device-width: 600px) {
   #industries-served {
     display:inline-block; 
     width: 100%;  
