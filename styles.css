@@ -1,5 +1,6 @@
 * {
   font-family: 'Maven Pro', sans-serif;
+  font-size: 10pt;
   padding: 0px;
   margin: 0px;
   text-align: center;
@@ -31,14 +32,6 @@ header {
 section {
   padding-top: 0px;
   padding-bottom: 40px;
-}
-
-ul {
-  list-style: none;
-}
- 
-li {
-  padding-bottom: 8px;
 }
 
 p {
@@ -120,7 +113,44 @@ footer {
 }
 
 @media only screen and (max-device-width: 600px) {
+
   #industries-served {
+    display: block;
+    width: 100%;
+  }
+
+  #industries-served img {
+    width: 100%;
+  }
+
+  #about {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "about-image"
+      "about-text";
+  }
+
+  #about .container-text {
+    grid-area: about-text;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  #about .container-image {
+    grid-area: about-image;
+  }
+
+  #about img {
+    width: 100%;
+  }
+
+  #about p {
+    padding-bottom: 20px;
+  }
+
+  /* #industries-served {
     display:inline-block; 
     width: 100%;  
   }
@@ -131,9 +161,8 @@ footer {
   }
 
   #about {
-    min-height: 1000px;
     display: grid;
-    grid-template-rows: 500px 500px;
+    grid-template-rows: 200px 200px;
     grid-template-columns: auto;
     grid-column-gap: 20px;
     justify-content:center; 
@@ -142,20 +171,25 @@ footer {
       "about-text";
   }
 
-  #about-text {
+  .container-text {
     grid-area: about-text;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 500px;
+    padding-top: 700px;
     padding-bottom: 100px;
   }
 
-  #about-image {
+  .container-image {
     grid-area: about-image;
   }
 
   #about img {
     width: 100%;
   }
+
+  #contact {
+    margin-top: 1000px;
+
+  } */
 
 }
