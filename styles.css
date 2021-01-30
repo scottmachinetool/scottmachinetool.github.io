@@ -131,6 +131,7 @@ footer {
   }
 
   #about {
+    min-height: 1000px;
     display: grid;
     grid-template-rows: 500px 500px;
     grid-template-columns: auto;
