@@ -1,6 +1,6 @@
 * {
   font-family: 'Maven Pro', sans-serif;
-  font-size: 24pt;
+  font-size: 20pt;
   padding: 0px;
   margin: 0px;
   text-align: center;
@@ -127,6 +127,10 @@ footer {
 
 @media only screen and (max-device-width: 600px) {
 
+  *{
+    font-size: 24pt;
+  }  
+ 
   h1{
     font-size: 60pt;
   }
